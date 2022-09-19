@@ -9,17 +9,15 @@
 ## Download
 #### For download, you can use one of the Github methods (Github CLI/SSH/HTTPS/Github Desktop)
 
-## Install dependecies
+## Install via composer
+#### This will automaticly install all php dependencies & create necessary things for laravel
 ```
-composer install
-npm install
+composer create-project zekythewolf/list
 ```
 
-## Install application
+## Install npm dependencies
 ```
-cp .env .env.example
-php artisan key:generate
-php artisan storage:link
+npm install
 ```
 
 ## Running aplication
