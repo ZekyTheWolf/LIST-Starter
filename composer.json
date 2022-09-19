@@ -1,8 +1,19 @@
 {
-    "name": "laravel/laravel",
+    "name": "zekythewolf/list",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "LIST - Starter pack",
+    "authors": [{
+        "name": "Zeky Wolf",
+        "homepage": "https://github.com/zekythewolf"
+    }],
+    "keywords": [
+        "list", 
+        "laravel", 
+        "sveltejs", 
+        "flowbite", 
+        "flowbite-svelte", 
+        "laravel, inertia, svelte, flowbite"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",

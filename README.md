@@ -1,25 +1,33 @@
-# LIST Boilerplate
+# LIST Starter pack
+
+![NodeJS](https://img.shields.io/badge/NodeJS-18.x-%23fff?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.1.x-%23fff?style=for-the-badge)
+![Laravel](https://img.shields.io/badge/Laravel-9.30.1-%23fff?style=for-the-badge)
 
 #### Laravel, Inertia, Svelte, TypeScript with TailwindCSS, Flowbite.
 
+## Download
+#### For download, you can use one of the Github methods (Github CLI/SSH/HTTPS/Github Desktop)
 
-## Install
+## Install dependecies
 ```
-cp .env .env.example
 composer install
 npm install
 ```
 
-## Running aplication - Laravel
+## Install application
 ```
+cp .env .env.example
 php artisan key:generate
 php artisan storage:link
-php artisan serve
 ```
 
-## Running aplication - NPM
+## Running aplication
 ```
+php artisan serve
 npm run dev
 ```
 
 ### And you should be ready to go.
+
+[Apache2](./.docs/apache.md)

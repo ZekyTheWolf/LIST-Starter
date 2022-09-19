@@ -1,8 +1,13 @@
 {
     "private": true,
+    "author": {
+        "name": "Zeky Wolf",
+        "url": "https://github.com/zekythewolf"
+    },
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "build:watch": "vite build --watch"
     },
     "devDependencies": {
         "@floating-ui/dom": "^1.0.1",
@@ -25,5 +30,9 @@
         "@inertiajs/inertia": "^0.11.0",
         "@inertiajs/inertia-svelte": "^0.8.0",
         "@inertiajs/progress": "^0.2.7"
+    },
+    "engines": {
+        "node" : ">=18.0.0",
+        "npm": ">=8.0.0"
     }
 }

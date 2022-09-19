@@ -16,7 +16,7 @@
                 Laravel, Inertia, Svelte with TypeScript & TailwindCSS, Flowbite.
             </p>
             <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
-                Boilerplate, welcome iń home page.
+                Starter pack, welcome in home page.
             </p>
         </div>   
     </div>
