@@ -2,17 +2,14 @@
     "name": "zekythewolf/list",
     "type": "project",
     "description": "LIST - Starter pack",
-    "authors": [{
-        "name": "Zeky Wolf",
-        "homepage": "https://github.com/zekythewolf"
-    }],
-    "keywords": [
-        "list", 
-        "laravel", 
-        "sveltejs", 
-        "flowbite", 
-        "flowbite-svelte",
+    "authors": [
+        {
+            "name": "Zeky Wolf",
+            "homepage": "https://github.com/zekythewolf"
+        }
     ],
+    "homepage": "https://github.com/ZekyTheWolf/LIST-Starter",
+    "keywords": [ "list", "laravel", "sveltejs", "flowbite", "flowbite-svelte" ],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
