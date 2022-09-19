@@ -11,8 +11,7 @@
         "laravel", 
         "sveltejs", 
         "flowbite", 
-        "flowbite-svelte", 
-        "laravel, inertia, svelte, flowbite"
+        "flowbite-svelte",
     ],
     "license": "MIT",
     "require": {
