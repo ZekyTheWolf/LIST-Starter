@@ -1,5 +1,5 @@
 {
-    "name": "zekythewolf/list",
+    "name": "zekythewolf/list-starter",
     "type": "project",
     "description": "LIST - Starter pack",
     "authors": [
@@ -53,6 +53,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ], 
+        "post-install-cmd": [
+            "npm install"
         ]
     },
     "extra": {
