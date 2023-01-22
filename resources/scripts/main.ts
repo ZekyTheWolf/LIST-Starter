@@ -1,10 +1,8 @@
 // @ts-ignore
-import { createInertiaApp } from '@inertiajs/inertia-svelte';
-import { InertiaProgress } from '@inertiajs/progress';
+import { createInertiaApp } from '@inertiajs/svelte';
 
 import '../css/app.css';
 
-InertiaProgress.init();
 createInertiaApp({
 	// @ts-ignore
 	resolve: (name) => importPageComponent(name, import.meta.glob('../views/pages/**/*.svelte')),

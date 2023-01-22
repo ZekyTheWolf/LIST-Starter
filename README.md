@@ -12,7 +12,7 @@
 ## Install via composer
 #### This will automaticly install all php dependencies & create necessary things for laravel
 ```
-composer create-project zekythewolf/list-starter
+composer create-project zekythewolf/list
 ```
 
 ## Install npm dependencies

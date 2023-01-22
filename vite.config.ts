@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
-import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { svelte, vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import path from 'path';
 
 export default defineConfig(({ mode }) => {
@@ -12,24 +12,14 @@ export default defineConfig(({ mode }) => {
                 refresh: true,
             }),
             svelte({
-				experimental: {
-					useVitePreprocess: true,
-					prebundleSvelteLibraries: true,
-				},
+				preprocess: [
+					vitePreprocess(),
+				]
 			}),
 		],
 
 		server: {
 			cors: mode === "development",
-		},
-
-		optimizeDeps: {
-			include: [
-				"@inertiajs/inertia",
-				"@inertiajs/inertia-svelte",
-				"@inertiajs/progress",
-				"classnames",
-			],
 		},
 
 		resolve: {
