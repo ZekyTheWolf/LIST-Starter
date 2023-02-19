@@ -25,3 +25,4 @@ function importPageComponent(name: string, pages: Record<string, any>) {
 
 	throw new Error(`Page not found: ${name}`)
 }
+

@@ -10,3 +10,4 @@
         @inertia
     </body>
 </html>
+

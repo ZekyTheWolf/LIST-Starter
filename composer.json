@@ -1,32 +1,25 @@
 {
-    "name": "zekythewolf/list-starter",
+    "name": "laravel/laravel",
     "type": "project",
-    "description": "LIST - Starter pack",
-    "authors": [
-        {
-            "name": "Zeky Wolf",
-            "homepage": "https://github.com/zekythewolf"
-        }
-    ],
-    "homepage": "https://github.com/ZekyTheWolf/LIST-Starter",
-    "keywords": [ "list", "laravel", "sveltejs", "flowbite", "flowbite-svelte" ],
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
-        "inertiajs/inertia-laravel": "^0.6.3",
-        "laravel/framework": "^9.19",
-        "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "inertiajs/inertia-laravel": "^0.6.9",
+        "laravel/framework": "^10.0",
+        "laravel/sanctum": "^3.2",
+        "laravel/tinker": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
-        "laravel/sail": "^1.0.1",
+        "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^6.1",
-        "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0"
+        "nunomaduro/collision": "^7.0",
+        "phpunit/phpunit": "^10.0",
+        "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -53,12 +46,12 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ], 
-        "post-install-cmd": [
-            "npm install"
         ]
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "10.x-dev"
+        },
         "laravel": {
             "dont-discover": []
         }
@@ -71,6 +64,6 @@
             "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }

@@ -14,11 +14,10 @@
         "types": [
             "vite/client"
         ],
-        "baseUrl": ".",
+        "baseUrl": "./*",
         "paths": {
-            "@/*": [ "resources/*" ],
-            "@Views": [ "resources/views/*" ],
-            "@Pages": [ "resources/views/pages/*" ],
+            "@Layouts": [ "resources/layouts/index.ts" ],
+            "@Components": [ "resources/components/index.ts" ],
         }
     },
     "include": [
