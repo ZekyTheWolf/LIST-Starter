@@ -1,9 +1,12 @@
 <script lang="ts">
     let list: string = "LIST";
+
+    export let laravel: string = "";
+    export let php: string = "";
 </script>
 
 <svelte:head>
-    <title>{list}</title>
+    <title>{list} - Laravel {laravel} | PHP {php}</title>
 </svelte:head>
 
 <section class="bg-white dark:bg-gray-900">
