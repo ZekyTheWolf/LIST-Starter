@@ -1,5 +1,5 @@
 # NEW LARAVEL 10!
-#### If you want to use Laravel 9, switch branch and download it / use gitlab commands.
+#### If you want to use Laravel 9, install different version (v1.0.2 or lower).
 
 # LIST Start pack
 
