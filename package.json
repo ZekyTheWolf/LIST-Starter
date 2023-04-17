@@ -15,7 +15,7 @@
         "flowbite-svelte": "^0.34.9",
         "laravel-vite-plugin": "^0.7.2",
         "path": "^0.12.7",
-        "postcss": "^8.4.21",
+        "postcss": "^8.4.22",
         "tailwindcss": "^3.3.1",
         "typescript": "^5.0.4",
         "vite": "^3.0.0"
