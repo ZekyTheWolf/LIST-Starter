@@ -1,6 +1,6 @@
 {
   "resources/scripts/main.ts": {
-    "file": "assets/main.c85cc375.js",
+    "file": "assets/main.cf5b5432.js",
     "src": "resources/scripts/main.ts",
     "isEntry": true,
     "dynamicImports": [
@@ -8,11 +8,11 @@
       "resources/views/pages/welcome.svelte"
     ],
     "css": [
-      "assets/main.577e71e9.css"
+      "assets/main.cc5ed9b9.css"
     ]
   },
   "resources/views/pages/error.svelte": {
-    "file": "assets/error.584c5041.js",
+    "file": "assets/error.4c3184a6.js",
     "src": "resources/views/pages/error.svelte",
     "isDynamicEntry": true,
     "imports": [
@@ -20,7 +20,7 @@
     ]
   },
   "resources/views/pages/welcome.svelte": {
-    "file": "assets/welcome.a704854f.js",
+    "file": "assets/welcome.38641f2c.js",
     "src": "resources/views/pages/welcome.svelte",
     "isDynamicEntry": true,
     "imports": [
@@ -28,7 +28,7 @@
     ]
   },
   "resources/scripts/main.css": {
-    "file": "assets/main.577e71e9.css",
+    "file": "assets/main.cc5ed9b9.css",
     "src": "resources/scripts/main.css"
   }
 }

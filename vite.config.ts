@@ -8,7 +8,8 @@ import path from 'path';
 export default defineConfig(({ mode }) => {
 	return {
 		plugins: [
-			laravel({
+			// @ts-expect-error
+			laravel.default({
 				input: [
 					'resources/scripts/main.ts'
 				],
@@ -16,9 +17,9 @@ export default defineConfig(({ mode }) => {
 			}),
 			svelte({
 				preprocess: {
-					//@ts-ignore
+					// @ts-expect-error
 					script:async (options) => (await vitePreprocess).script(options),
-					//@ts-ignore
+					// @ts-expect-error
 					style:async (options) => (await vitePreprocess).style(options),
 				}
 			}),
