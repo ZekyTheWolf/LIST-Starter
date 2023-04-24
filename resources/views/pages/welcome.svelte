@@ -1,26 +1,36 @@
 <script lang="ts">
-    let list: string = "LIST";
+	import { card_data } from "../components/card_data";
+	import Card from "../components/Card.svelte";
 
-    export let laravel: string = "";
-    export let php: string = "";
+	let list: string = "LIST";
+
+	export let laravel: string = "";
+	export let php: string = "";
 </script>
 
 <svelte:head>
-    <title>{list} - Laravel {laravel} | PHP {php}</title>
+	<title>{list} - Laravel {laravel} | PHP {php}</title>
 </svelte:head>
 
-<section class="bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-sm text-center">
-            <h1 class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">
-                {list}
-            </h1>
-            <p class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">
-                Laravel, Inertia, Svelte with TypeScript & TailwindCSS, Flowbite.
-            </p>
-            <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
-                Starter pack, welcome in home page.
-            </p>
-        </div>   
-    </div>
+<section class="bg-gray-900">
+	<div class="mx-auto max-w-screen-2xl px-4 py-8 lg:px-6 lg:py-16">
+		<div class="text-center">
+			<div class="mx-auto max-w-screen-sm text-center">
+				<h1
+					class="text-primary-500 mb-8 text-7xl font-extrabold tracking-tight lg:text-9xl"
+				>
+					{list}
+				</h1>
+			</div>
+			<div class="grid grid-cols-1 content-center gap-4 sm:grid-cols-5">
+				{#each card_data as card}
+					<Card href={card.href} title={card.title}>
+						<p class="mb-3 font-normal text-gray-400">
+							{@html card.desc}
+						</p>
+					</Card>
+				{/each}
+			</div>
+		</div>
+	</div>
 </section>
