@@ -14,7 +14,7 @@
 # Latest version
 #### This will automaticly install all php dependencies & create necessary things for laravel
 ```
-composer create-project zekythewolf/list
+composer create-project zekythewolf/list-starter
 ```
 
 ## Install npm dependencies
