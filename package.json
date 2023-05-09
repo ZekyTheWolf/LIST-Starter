@@ -21,7 +21,7 @@
         "postcss": "^8.4.23",
         "tailwindcss": "^3.3.2",
         "typescript": "^5.0.4",
-        "vite": "^4.3.4"
+        "vite": "^4.3.5"
     },
     "dependencies": {
         "@inertiajs/svelte": "^1.0.6"
