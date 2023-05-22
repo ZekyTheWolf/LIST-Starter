@@ -15,7 +15,7 @@
         "axios": "^1.4.0",
         "classnames": "^2.3.2",
         "flowbite": "^1.6.5",
-        "flowbite-svelte": "^0.35.3",
+        "flowbite-svelte": "^0.36.4",
         "laravel-vite-plugin": "^0.7.7",
         "path": "^0.12.7",
         "postcss": "^8.4.23",
