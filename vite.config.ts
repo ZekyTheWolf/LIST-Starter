@@ -8,8 +8,7 @@ import path from 'path';
 export default defineConfig(({ mode }) => {
 	return {
 		plugins: [
-			// @ts-expect-error
-			laravel.default({
+			laravel({
 				input: [
 					'resources/scripts/main.ts'
 				],
