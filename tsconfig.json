@@ -14,7 +14,7 @@
         "types": [
             "vite/client"
         ],
-        "baseUrl": "./*",
+        "baseUrl": ".",
         "paths": {
             "@Layouts": [ "resources/layouts/index.ts" ],
             "@Components": [ "resources/components/index.ts" ],
