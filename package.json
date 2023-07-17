@@ -10,7 +10,7 @@
     "devDependencies": {
         "@popperjs/core": "^2.11.8",
         "@sveltejs/vite-plugin-svelte": "^2.4.2",
-        "@types/node": "^20.4.1",
+        "@types/node": "^20.4.2",
         "autoprefixer": "^10.4.14",
         "axios": "^1.4.0",
         "flowbite": "^1.7.0",
