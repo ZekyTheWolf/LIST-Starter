@@ -13,7 +13,7 @@
         "@types/node": "^20.8.10",
         "autoprefixer": "^10.4.16",
         "axios": "^1.6.0",
-        "flowbite": "^2.0.0",
+        "flowbite": "^2.1.1",
         "flowbite-svelte": "^0.44.19",
         "laravel-vite-plugin": "^0.8.1",
         "path": "^0.12.7",
