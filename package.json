@@ -14,7 +14,7 @@
         "autoprefixer": "^10.4.16",
         "axios": "^1.6.2",
         "flowbite": "^2.1.1",
-        "flowbite-svelte": "^0.44.19",
+        "flowbite-svelte": "^0.44.20",
         "laravel-vite-plugin": "^0.8.1",
         "path": "^0.12.7",
         "postcss": "^8.4.31",
