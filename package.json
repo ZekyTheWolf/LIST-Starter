@@ -11,7 +11,7 @@
         "@popperjs/core": "^2.11.8",
         "@sveltejs/vite-plugin-svelte": "^2.5.2",
         "@types/node": "^20.10.8",
-        "autoprefixer": "^10.4.16",
+        "autoprefixer": "^10.4.17",
         "axios": "^1.6.2",
         "flowbite": "^2.2.1",
         "flowbite-svelte": "^0.44.20",
