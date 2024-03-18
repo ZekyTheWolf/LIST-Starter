@@ -24,6 +24,6 @@
         "vite": "^4.5.2"
     },
     "dependencies": {
-        "@inertiajs/svelte": "^1.0.14"
+        "@inertiajs/svelte": "^1.0.15"
     }
 }
