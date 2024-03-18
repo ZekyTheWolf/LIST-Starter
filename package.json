@@ -12,7 +12,7 @@
         "@sveltejs/vite-plugin-svelte": "^2.5.2",
         "@types/node": "^20.11.25",
         "autoprefixer": "^10.4.17",
-        "axios": "^1.6.7",
+        "axios": "^1.6.8",
         "flowbite": "^2.3.0",
         "flowbite-svelte": "^0.44.24",
         "laravel-vite-plugin": "^0.8.1",
