@@ -1,34 +1,33 @@
 {
-  "resources/scripts/main.css": {
-    "file": "assets/main-a05a286e.css",
-    "src": "resources/scripts/main.css"
-  },
   "resources/scripts/main.ts": {
-    "css": [
-      "assets/main-a05a286e.css"
-    ],
+    "file": "assets/main-B4QJOgnP.js",
+    "name": "main",
+    "src": "resources/scripts/main.ts",
+    "isEntry": true,
     "dynamicImports": [
       "resources/views/pages/error.svelte",
       "resources/views/pages/welcome.svelte"
     ],
-    "file": "assets/main-65349a68.js",
-    "isEntry": true,
-    "src": "resources/scripts/main.ts"
+    "css": [
+      "assets/main-D83BmP6o.css"
+    ]
   },
   "resources/views/pages/error.svelte": {
-    "file": "assets/error-ec1fa7c2.js",
+    "file": "assets/error-DSsfh_Ce.js",
+    "name": "error",
+    "src": "resources/views/pages/error.svelte",
+    "isDynamicEntry": true,
     "imports": [
       "resources/scripts/main.ts"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/views/pages/error.svelte"
+    ]
   },
   "resources/views/pages/welcome.svelte": {
-    "file": "assets/welcome-e9cb03c3.js",
+    "file": "assets/welcome-CmYq6jpU.js",
+    "name": "welcome",
+    "src": "resources/views/pages/welcome.svelte",
+    "isDynamicEntry": true,
     "imports": [
       "resources/scripts/main.ts"
-    ],
-    "isDynamicEntry": true,
-    "src": "resources/views/pages/welcome.svelte"
+    ]
   }
 }
