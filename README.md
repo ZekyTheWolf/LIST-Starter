@@ -1,8 +1,8 @@
 # LIST Start pack
 
-![NodeJS](https://img.shields.io/badge/NodeJS-18.x-%23fff?style=for-the-badge)
+![NodeJS](https://img.shields.io/badge/NodeJS-20.x-%23fff?style=for-the-badge)
 ![PHP](https://img.shields.io/badge/PHP-8.2.x-%23fff?style=for-the-badge)
-![Laravel](https://img.shields.io/badge/Laravel-10.0-%23fff?style=for-the-badge)
+![Laravel](https://img.shields.io/badge/Laravel-11.0-%23fff?style=for-the-badge)
 
 #### Laravel, Inertia, Svelte, TypeScript with TailwindCSS, Flowbite.
 
