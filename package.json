@@ -15,7 +15,7 @@
         "axios": "^1.6.8",
         "flowbite": "^2.3.0",
         "flowbite-svelte": "^0.46.1",
-        "laravel-vite-plugin": "^1.0.0",
+        "laravel-vite-plugin": "^1.0.4",
         "path": "^0.12.7",
         "postcss": "^8.4.38",
         "tailwind-merge": "^2.3.0",
