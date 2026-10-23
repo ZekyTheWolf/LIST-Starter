@@ -1,4 +1,5 @@
-# LIST Start pack
+## No longer maintained
+### LIST Start pack
 
 ![NodeJS](https://img.shields.io/badge/NodeJS-20.x-%23fff?style=for-the-badge)
 ![PHP](https://img.shields.io/badge/PHP-8.2.x-%23fff?style=for-the-badge)
